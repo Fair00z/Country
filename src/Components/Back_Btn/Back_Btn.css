@@ -1,0 +1,8 @@
+.btn-back{
+    width: 130px;
+    background-color: hsl(209, 23%, 22%);
+    color: #fff;
+}
+.btn-back i{
+    margin-right: 15px;
+}

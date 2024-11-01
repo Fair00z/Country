@@ -1,0 +1,16 @@
+.c-card{
+    width: 100%;
+    background-color: hsl(209, 23%, 22%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+}
+.c-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.c-card-detail-value{
+    color: #a3a3a3;
+}

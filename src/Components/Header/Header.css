@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: hsl(209, 23%, 22%);
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+header nav{
+    background-color: hsl(209, 23%, 22%);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+header nav span{
+    font-size: clamp(1rem, 2vw, 2rem);
+    font-weight: 700;
+}
+.btn-theme{
+    height: 45px;
+    background: none;
+    color: #fff;
+}
+.btn-theme i{
+    margin-right: 7px;
+}

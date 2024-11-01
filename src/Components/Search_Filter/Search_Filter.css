@@ -1,0 +1,42 @@
+.search{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(209, 23%, 22%);
+    display: flex;
+    color: #fff;
+    border-radius: 5px;
+    align-items: center;
+}
+.search i{
+    margin-right: 20px;
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.search input::placeholder{
+    color: #fff;
+}
+.filter{
+    width: 50%;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(209, 23%, 22%);
+    outline: none;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+}
+.filter:focus{
+    outline: none;
+    border-color: #0056b3;
+    border: none;
+}
+.filter option{
+    border: none;
+}
